@@ -53,7 +53,7 @@ aside {
 }
 
 .wrap {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .title {
   line-height: 46px;
@@ -98,11 +98,11 @@ h1 {
 }
 
 .info-container p {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .experience__item {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .experience__duties {
@@ -129,7 +129,7 @@ h1 {
 }
 
 .education__item {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .education__specialty {
