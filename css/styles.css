@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /*font-size: 14px;*/
+  font-size: 14px;
 }
 
 body {
@@ -23,8 +23,8 @@ body {
 aside {
   background-color: #1e2939;
   width: 370px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
   /*line-height: 26px;*/
 }
@@ -42,27 +42,31 @@ aside {
 .tech-skills,
 .soft-skills,
 .languages {
-  margin: 50px 30px;
+  margin: 0 20px;
 }
-.contacts__list {
+.contacts__list,
+.technologies__list,
+.job,
+.duties {
   list-style: none;
 }
 
-.contacts__list li {
+/* .contacts__list li {
   margin-left: 0;
-}
+} */
 
 .wrap {
   margin-bottom: 10px;
 }
 .title {
   line-height: 46px;
-  font-size: 18px;
+  font-size: 16px;
+  /* margin-bottom: 10px */
 }
 
 aside li {
   margin-left: 15px;
-  color: #ff6b08;
+  color: #fff;
 }
 
 .tech-skills__category {
@@ -76,7 +80,7 @@ aside li {
 }
 
 main {
-  padding: 50px 50px;
+  padding: 20px 40px;
 }
 
 main li {
@@ -88,13 +92,18 @@ h1 {
   color: #8f949c;
 }
 
+h3 {
+  display:inline;
+}
+
 .info-container h1 {
   font-size: 40px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .info-container h2 {
-  margin: 20px 0;
+  font-size: 20px;
+  margin: 10px 0;
 }
 
 .info-container p {
@@ -106,22 +115,24 @@ h1 {
 }
 
 .experience__duties {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
-  color: #ff6b08;
+  color: #101010;
 }
 
 .experience__details,
 .summary {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: #101010;
 }
 
-.experience__divider {
-  color: #ff6b08;
-  font-size: 16px;
+.experience__divider,
+.technologies,
+.project__title {
+  color: #101010;
+  font-size: 14px;
 }
 
 .experience__proj-name {
@@ -133,7 +144,8 @@ h1 {
 }
 
 .education__specialty {
-  /*color: #ff6b08;*/
+  color: #101010;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -142,7 +154,7 @@ h1 {
 }
 
 a {
-  color: #ff6b08;
+  color: #fff;
   text-decoration: none;
   transition: all ease 0.3s;
 }
@@ -198,7 +210,7 @@ a:hover {
     display: block;
   }
   .info-mobile h1 {
-    font-size: 30px;
+    font-size: 14px;
     line-height: 48px;
   }
   .info-container h1,
