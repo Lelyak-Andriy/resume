@@ -51,9 +51,9 @@ aside {
   list-style: none;
 }
 
-/* .contacts__list li {
+.contacts__list li {
   margin-left: 0;
-} */
+}
 
 .wrap {
   margin-bottom: 10px;
